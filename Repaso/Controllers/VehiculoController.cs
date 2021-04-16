@@ -23,6 +23,7 @@ namespace Repaso.Controllers
         {
             ViewBag.mensaje = "";
             return View();
+
         }
 
         public ActionResult Nuevo(Vehiculos modelo)
